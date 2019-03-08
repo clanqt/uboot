@@ -1,0 +1,1621 @@
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 start.o
+ .bss           0x0000000000000000        0x0 start.o
+ .text          0x0000000000000000        0x0 cpu_init.o
+ .data          0x0000000000000000        0x0 cpu_init.o
+ .bss           0x0000000000000000        0x0 cpu_init.o
+ .ARM.attributes
+                0x0000000000000000       0x1b cpu_init.o
+ .text          0x0000000000000000        0x0 nand_boot.o
+ .data          0x0000000000000000        0x0 nand_boot.o
+ .bss           0x0000000000000000        0x0 nand_boot.o
+ .data          0x0000000000000000        0x0 lowlevel_init.o
+ .bss           0x0000000000000000        0x0 lowlevel_init.o
+ .data          0x0000000000000000        0x0 divlib.o
+ .bss           0x0000000000000000        0x0 divlib.o
+ .data          0x0000000000000000        0x0 _lshrdi3.o
+ .bss           0x0000000000000000        0x0 _lshrdi3.o
+ .data          0x0000000000000000        0x0 _ashldi3.o
+ .bss           0x0000000000000000        0x0 _ashldi3.o
+ .data          0x0000000000000000        0x0 _ashrdi3.o
+ .bss           0x0000000000000000        0x0 _ashrdi3.o
+ .text          0x0000000000000000        0x0 nand_ecc.o
+ .data          0x0000000000000000        0x0 nand_ecc.o
+ .bss           0x0000000000000000        0x0 nand_ecc.o
+ .text          0x0000000000000000        0x0 nuc970_nand.o
+ .data          0x0000000000000000        0x0 nuc970_nand.o
+ .text          0x0000000000000000        0x0 nuc970_nand_spl.o
+ .data          0x0000000000000000        0x0 nuc970_nand_spl.o
+ .bss           0x0000000000000000        0x0 nuc970_nand_spl.o
+ .text          0x0000000000000000        0x0 nand.o
+ .text.nand_init
+                0x0000000000000000       0x60 nand.o
+ .text          0x0000000000000000        0x0 nand_bbt.o
+ .bss           0x0000000000000000        0x0 nand_bbt.o
+ .text          0x0000000000000000        0x0 nand_ids.o
+ .data          0x0000000000000000        0x0 nand_ids.o
+ .bss           0x0000000000000000        0x0 nand_ids.o
+ .text          0x0000000000000000        0x0 nand_util.o
+ .data          0x0000000000000000        0x0 nand_util.o
+ .bss           0x0000000000000000        0x0 nand_util.o
+ .text.check_skip_len
+                0x0000000000000000       0x8c nand_util.o
+ .text.nand_erase_opts
+                0x0000000000000000      0x328 nand_util.o
+ .text.nand_write_skip_bad
+                0x0000000000000000      0x1f4 nand_util.o
+ .text.nand_read_skip_bad
+                0x0000000000000000      0x1ec nand_util.o
+ .rodata.str1.1
+                0x0000000000000000      0x23c nand_util.o
+ .debug_info    0x0000000000000000     0x1cee nand_util.o
+ .debug_abbrev  0x0000000000000000      0x395 nand_util.o
+ .debug_loc     0x0000000000000000      0x923 nand_util.o
+ .debug_aranges
+                0x0000000000000000       0x38 nand_util.o
+ .debug_ranges  0x0000000000000000      0x168 nand_util.o
+ .debug_line    0x0000000000000000      0x4bb nand_util.o
+ .debug_str     0x0000000000000000      0xb37 nand_util.o
+ .comment       0x0000000000000000       0x12 nand_util.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nand_util.o
+ .ARM.attributes
+                0x0000000000000000       0x2b nand_util.o
+ .debug_frame   0x0000000000000000       0xb0 nand_util.o
+ .text          0x0000000000000000        0x0 nand_base.o
+ .bss           0x0000000000000000        0x0 nand_base.o
+ .text.nand_release
+                0x0000000000000000       0x48 nand_base.o
+ .text          0x0000000000000000        0x0 serial_nuc970.o
+ .bss           0x0000000000000000        0x0 serial_nuc970.o
+ .text          0x0000000000000000        0x0 serial.o
+ .data          0x0000000000000000        0x0 serial.o
+ .text.serial_null
+                0x0000000000000000        0x4 serial.o
+ .text.serial_stdio_init
+                0x0000000000000000       0x8c serial.o
+ .text.serial_assign
+                0x0000000000000000       0x4c serial.o
+ .text.serial_initialize
+                0x0000000000000000       0xdc serial.o
+ .text.serial_reinit_all
+                0x0000000000000000       0x2c serial.o
+ .text.serial_init
+                0x0000000000000000       0x14 serial.o
+ .text.serial_setbrg
+                0x0000000000000000       0x14 serial.o
+ .text.on_baudrate
+                0x0000000000000000       0xec serial.o
+ .text.serial_getc
+                0x0000000000000000       0x14 serial.o
+ .text.serial_tstc
+                0x0000000000000000       0x14 serial.o
+ .text.default_serial_puts
+                0x0000000000000000       0x30 serial.o
+ .u_boot_list_2_env_clbk_2_baudrate
+                0x0000000000000000        0x8 serial.o
+ .text          0x0000000000000000        0x0 nuc970_sysprintf.o
+ .data          0x0000000000000000        0x0 nuc970_sysprintf.o
+ .bss           0x0000000000000000        0x0 nuc970_sysprintf.o
+ .text._PutChar_f
+                0x0000000000000000        0x4 nuc970_sysprintf.o
+ .text          0x0000000000000000        0x0 nuc970_wdt.o
+ .data          0x0000000000000000        0x0 nuc970_wdt.o
+ .bss           0x0000000000000000        0x0 nuc970_wdt.o
+ .text.Unlock_RegWriteProtect
+                0x0000000000000000       0x2c nuc970_wdt.o
+ .text.hw_watchdog_reset
+                0x0000000000000000       0x2c nuc970_wdt.o
+ .text.hw_watchdog_init
+                0x0000000000000000       0xa4 nuc970_wdt.o
+ .rodata.str1.1
+                0x0000000000000000        0xf nuc970_wdt.o
+ .debug_info    0x0000000000000000      0x5b9 nuc970_wdt.o
+ .debug_abbrev  0x0000000000000000      0x20c nuc970_wdt.o
+ .debug_loc     0x0000000000000000      0x174 nuc970_wdt.o
+ .debug_aranges
+                0x0000000000000000       0x30 nuc970_wdt.o
+ .debug_ranges  0x0000000000000000       0x68 nuc970_wdt.o
+ .debug_line    0x0000000000000000      0x1f1 nuc970_wdt.o
+ .debug_str     0x0000000000000000      0x2be nuc970_wdt.o
+ .comment       0x0000000000000000       0x12 nuc970_wdt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nuc970_wdt.o
+ .ARM.attributes
+                0x0000000000000000       0x2b nuc970_wdt.o
+ .debug_frame   0x0000000000000000       0x50 nuc970_wdt.o
+ .text          0x0000000000000000        0x0 timer.o
+ .data          0x0000000000000000        0x0 timer.o
+ .bss           0x0000000000000000        0x0 timer.o
+ .text.timer_init
+                0x0000000000000000       0x48 timer.o
+ .text.get_tbclk
+                0x0000000000000000        0x8 timer.o
+ .text          0x0000000000000000        0x0 time.o
+ .data          0x0000000000000000        0x0 time.o
+ .bss           0x0000000000000000        0x0 time.o
+ .text.mdelay   0x0000000000000000       0x24 time.o
+ .text          0x0000000000000000        0x0 div64.o
+ .data          0x0000000000000000        0x0 div64.o
+ .bss           0x0000000000000000        0x0 div64.o
+ .text          0x0000000000000000        0x0 string.o
+ .data          0x0000000000000000        0x0 string.o
+ .bss           0x0000000000000000        0x4 string.o
+ .text.strncasecmp
+                0x0000000000000000       0x84 string.o
+ .text.strcasecmp
+                0x0000000000000000        0x8 string.o
+ .text.strcpy   0x0000000000000000       0x1c string.o
+ .text.strncpy  0x0000000000000000       0x24 string.o
+ .text.strcat   0x0000000000000000       0x30 string.o
+ .text.strncat  0x0000000000000000       0x54 string.o
+ .text.strcmp   0x0000000000000000       0x30 string.o
+ .text.strncmp  0x0000000000000000       0x44 string.o
+ .text.strchr   0x0000000000000000       0x34 string.o
+ .text.strrchr  0x0000000000000000       0x3c string.o
+ .text.strdup   0x0000000000000000       0x38 string.o
+ .text.strspn   0x0000000000000000       0x48 string.o
+ .text.strpbrk  0x0000000000000000       0x3c string.o
+ .text.strtok   0x0000000000000000       0x7c string.o
+ .text.strsep   0x0000000000000000       0x34 string.o
+ .text.strswab  0x0000000000000000       0x4c string.o
+ .text.bcopy    0x0000000000000000       0x24 string.o
+ .text.memmove  0x0000000000000000       0x60 string.o
+ .text.memscan  0x0000000000000000       0x2c string.o
+ .text.strstr   0x0000000000000000       0x64 string.o
+ .text.memchr   0x0000000000000000       0x30 string.o
+ .text          0x0000000000000000        0x0 vsprintf.o
+ .data          0x0000000000000000        0x0 vsprintf.o
+ .bss           0x0000000000000000       0x16 vsprintf.o
+ .text.simple_strtoul
+                0x0000000000000000       0xc0 vsprintf.o
+ .text.strict_strtoul
+                0x0000000000000000       0x78 vsprintf.o
+ .text.simple_strtol
+                0x0000000000000000       0x28 vsprintf.o
+ .text.ustrtoul
+                0x0000000000000000       0x70 vsprintf.o
+ .text.simple_strtoull
+                0x0000000000000000       0xec vsprintf.o
+ .text.ustrtoull
+                0x0000000000000000       0x88 vsprintf.o
+ .text.__assert_fail
+                0x0000000000000000       0x14 vsprintf.o
+ .text.simple_itoa
+                0x0000000000000000       0x58 vsprintf.o
+ .text          0x0000000000000000        0x0 stdio.o
+ .data          0x0000000000000000        0xc stdio.o
+ .text.stdio_get_list
+                0x0000000000000000        0xc stdio.o
+ .text.stdio_get_by_name
+                0x0000000000000000       0x50 stdio.o
+ .text.stdio_clone
+                0x0000000000000000       0x3c stdio.o
+ .text.stdio_register
+                0x0000000000000000       0x44 stdio.o
+ .text.stdio_init
+                0x0000000000000000       0x8c stdio.o
+ .rodata.str1.1
+                0x0000000000000000       0x1b stdio.o
+ .text          0x0000000000000000        0x0 console.o
+ .data          0x0000000000000000        0x0 console.o
+ .bss           0x0000000000000000        0x8 console.o
+ .text.console_setfile
+                0x0000000000000000       0xa0 console.o
+ .text.serial_printf
+                0x0000000000000000       0x40 console.o
+ .text.fgetc    0x0000000000000000       0x2c console.o
+ .text.ftstc    0x0000000000000000       0x2c console.o
+ .text.fputs    0x0000000000000000       0x28 console.o
+ .text.fprintf  0x0000000000000000       0x48 console.o
+ .text.getc     0x0000000000000000       0x24 console.o
+ .text.tstc     0x0000000000000000       0x24 console.o
+ .text.ctrlc    0x0000000000000000       0x50 console.o
+ .text.disable_ctrlc
+                0x0000000000000000       0x18 console.o
+ .text.had_ctrlc
+                0x0000000000000000       0x10 console.o
+ .text.clear_ctrlc
+                0x0000000000000000       0x14 console.o
+ .text.dbg      0x0000000000000000        0xc console.o
+ .text.search_device
+                0x0000000000000000       0x30 console.o
+ .text.console_assign
+                0x0000000000000000       0x48 console.o
+ .text.on_console
+                0x0000000000000000       0xc4 console.o
+ .text.console_init_f
+                0x0000000000000000       0x10 console.o
+ .text.stdio_print_current_devices
+                0x0000000000000000       0xb8 console.o
+ .text.console_init_r
+                0x0000000000000000       0xd4 console.o
+ .u_boot_list_2_env_clbk_2_console
+                0x0000000000000000        0x8 console.o
+ .rodata.str1.1
+                0x0000000000000000       0xa3 console.o
+ .text          0x0000000000000000        0x0 reset.o
+ .data          0x0000000000000000        0x0 reset.o
+ .bss           0x0000000000000000        0x0 reset.o
+ .text          0x0000000000000000        0x0 interrupts.o
+ .data          0x0000000000000000        0x0 interrupts.o
+ .bss           0x0000000000000000        0x0 interrupts.o
+ .text.interrupt_init
+                0x0000000000000000       0x1c interrupts.o
+ .text.enable_interrupts
+                0x0000000000000000        0x4 interrupts.o
+ .text.bad_mode
+                0x0000000000000000       0x10 interrupts.o
+ .text.show_regs
+                0x0000000000000000      0x13c interrupts.o
+ .text.do_undefined_instruction
+                0x0000000000000000       0x20 interrupts.o
+ .text.do_software_interrupt
+                0x0000000000000000       0x20 interrupts.o
+ .text.do_prefetch_abort
+                0x0000000000000000       0x20 interrupts.o
+ .text.do_data_abort
+                0x0000000000000000       0x20 interrupts.o
+ .text.do_not_used
+                0x0000000000000000       0x20 interrupts.o
+ .text.do_fiq   0x0000000000000000       0x20 interrupts.o
+ .text.do_irq   0x0000000000000000       0x20 interrupts.o
+ .rodata        0x0000000000000000       0x80 interrupts.o
+ .rodata.str1.1
+                0x0000000000000000      0x2b9 interrupts.o
+ .text          0x0000000000000000        0x0 nuc970_reset.o
+ .data          0x0000000000000000        0x0 nuc970_reset.o
+ .bss           0x0000000000000000        0x0 nuc970_reset.o
+ .text          0x0000000000000000        0x0 ctype.o
+ .data          0x0000000000000000        0x0 ctype.o
+ .bss           0x0000000000000000        0x0 ctype.o
+ .text          0x0000000000000000        0x0 mtdcore.o
+ .data          0x0000000000000000        0x0 mtdcore.o
+ .text.del_mtd_device
+                0x0000000000000000       0x54 mtdcore.o
+ .text.get_mtd_device
+                0x0000000000000000       0x7c mtdcore.o
+ .text.get_mtd_device_nm
+                0x0000000000000000       0x6c mtdcore.o
+ .text.put_mtd_device
+                0x0000000000000000       0x2c mtdcore.o
+ .text          0x0000000000000000        0x0 mtdpart.o
+ .data          0x0000000000000000        0x0 mtdpart.o
+ .bss           0x0000000000000000        0x8 mtdpart.o
+ .text.part_read_user_prot_reg
+                0x0000000000000000       0x30 mtdpart.o
+ .text.part_get_user_prot_info
+                0x0000000000000000       0x14 mtdpart.o
+ .text.part_read_fact_prot_reg
+                0x0000000000000000       0x30 mtdpart.o
+ .text.part_get_fact_prot_info
+                0x0000000000000000       0x14 mtdpart.o
+ .text.part_write
+                0x0000000000000000       0x80 mtdpart.o
+ .text.part_panic_write
+                0x0000000000000000       0x80 mtdpart.o
+ .text.part_write_oob
+                0x0000000000000000       0x7c mtdpart.o
+ .text.part_write_user_prot_reg
+                0x0000000000000000       0x30 mtdpart.o
+ .text.part_lock_user_prot_reg
+                0x0000000000000000       0x1c mtdpart.o
+ .text.part_lock
+                0x0000000000000000       0x54 mtdpart.o
+ .text.part_unlock
+                0x0000000000000000       0x54 mtdpart.o
+ .text.part_sync
+                0x0000000000000000       0x14 mtdpart.o
+ .text.part_block_isbad
+                0x0000000000000000       0x44 mtdpart.o
+ .text.part_block_markbad
+                0x0000000000000000       0x68 mtdpart.o
+ .text.part_read_oob
+                0x0000000000000000       0x94 mtdpart.o
+ .text.part_read
+                0x0000000000000000       0xdc mtdpart.o
+ .text.del_mtd_partitions
+                0x0000000000000000       0x8c mtdpart.o
+ .text.add_mtd_partitions
+                0x0000000000000000      0x660 mtdpart.o
+ .rodata        0x0000000000000000       0x12 mtdpart.o
+ .rodata.str1.1
+                0x0000000000000000      0x1f4 mtdpart.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000000000                . = 0x0
+                0x0000000000000000                . = ALIGN (0x4)
+
+.text           0x0000000000000200      0x3f4
+ start.o(.text)
+ .text          0x0000000000000200      0x140 start.o
+                0x0000000000000200                _start
+                0x0000000000000240                _TEXT_BASE
+                0x0000000000000244                _bss_start_ofs
+                0x0000000000000248                _bss_end_ofs
+                0x000000000000024c                _end_ofs
+                0x0000000000000250                IRQ_STACK_START_IN
+                0x0000000000000274                relocate_code
+ cpu_init.o(.text)
+ nand_boot.o(.text)
+ *(.text)
+ .text          0x0000000000000340       0x2c lowlevel_init.o
+                0x0000000000000340                lowlevel_init
+ *fill*         0x000000000000036c       0x14 
+ .text          0x0000000000000380      0x220 divlib.o
+                0x0000000000000380                __udivsi3
+                0x0000000000000380                __aeabi_uidiv
+                0x0000000000000418                __aeabi_uidivmod
+                0x0000000000000430                __aeabi_idivmod
+                0x0000000000000460                __aeabi_idiv
+                0x0000000000000460                __divsi3
+ .text          0x00000000000005a0       0x1c _lshrdi3.o
+                0x00000000000005a0                __aeabi_llsr
+                0x00000000000005a0                __lshrdi3
+ .text          0x00000000000005bc       0x1c _ashldi3.o
+                0x00000000000005bc                __ashldi3
+                0x00000000000005bc                __aeabi_llsl
+ .text          0x00000000000005d8       0x1c _ashrdi3.o
+                0x00000000000005d8                __ashrdi3
+                0x00000000000005d8                __aeabi_lasr
+
+.glue_7         0x00000000000005f4        0x0
+ .glue_7        0x0000000000000000        0x0 linker stubs
+
+.glue_7t        0x00000000000005f4        0x0
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000000000005f4        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x00000000000005f4        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.iplt           0x00000000000005f4        0x0
+ .iplt          0x0000000000000000        0x0 start.o
+
+.text.nand_boot
+                0x00000000000005f4      0x114
+ .text.nand_boot
+                0x00000000000005f4      0x114 nand_boot.o
+                0x00000000000005f4                nand_boot
+
+.text.nand_correct_data
+                0x0000000000000708      0x128
+ .text.nand_correct_data
+                0x0000000000000708      0x128 nand_ecc.o
+                0x0000000000000708                nand_correct_data
+
+.text.nuc970_hwcontrol
+                0x0000000000000830       0x50
+ .text.nuc970_hwcontrol
+                0x0000000000000830       0x50 nuc970_nand.o
+
+.text.nuc970_nand_select_chip
+                0x0000000000000880       0x1c
+ .text.nuc970_nand_select_chip
+                0x0000000000000880       0x1c nuc970_nand.o
+
+.text.nuc970_dev_ready
+                0x000000000000089c       0x18
+ .text.nuc970_dev_ready
+                0x000000000000089c       0x18 nuc970_nand.o
+
+.text.nuc970_nand_read_byte
+                0x00000000000008b4       0x14
+ .text.nuc970_nand_read_byte
+                0x00000000000008b4       0x14 nuc970_nand.o
+
+.text.nuc970_nand_write_buf
+                0x00000000000008c8       0x28
+ .text.nuc970_nand_write_buf
+                0x00000000000008c8       0x28 nuc970_nand.o
+
+.text.nuc970_nand_read_buf
+                0x00000000000008f0       0x28
+ .text.nuc970_nand_read_buf
+                0x00000000000008f0       0x28 nuc970_nand.o
+
+.text.nuc970_nand_enable_hwecc
+                0x0000000000000918        0x4
+ .text.nuc970_nand_enable_hwecc
+                0x0000000000000918        0x4 nuc970_nand.o
+                0x0000000000000918                nuc970_nand_enable_hwecc
+
+.text.nuc970_nand_calculate_ecc
+                0x000000000000091c        0x8
+ .text.nuc970_nand_calculate_ecc
+                0x000000000000091c        0x8 nuc970_nand.o
+
+.text.nuc970_nand_correct_data
+                0x0000000000000924        0x8
+ .text.nuc970_nand_correct_data
+                0x0000000000000924        0x8 nuc970_nand.o
+
+.text.nuc970_nand_write_page_hwecc
+                0x000000000000092c      0x1b0
+ .text.nuc970_nand_write_page_hwecc
+                0x000000000000092c      0x1b0 nuc970_nand.o
+
+.text.nuc970_nand_command_lp
+                0x0000000000000adc      0x1c0
+ .text.nuc970_nand_command_lp
+                0x0000000000000adc      0x1c0 nuc970_nand.o
+
+.text.nuc970_nand_read_oob_hwecc
+                0x0000000000000c9c       0x54
+ .text.nuc970_nand_read_oob_hwecc
+                0x0000000000000c9c       0x54 nuc970_nand.o
+
+.text.fmiSM_CorrectData_BCH
+                0x0000000000000cf0      0x2c0
+ .text.fmiSM_CorrectData_BCH
+                0x0000000000000cf0      0x2c0 nuc970_nand.o
+                0x0000000000000cf0                fmiSM_CorrectData_BCH
+
+.text.fmiSMCorrectData
+                0x0000000000000fb0       0xd4
+ .text.fmiSMCorrectData
+                0x0000000000000fb0       0xd4 nuc970_nand.o
+                0x0000000000000fb0                fmiSMCorrectData
+
+.text.nuc970_nand_read_page_hwecc_oob_first
+                0x0000000000001084      0x1fc
+ .text.nuc970_nand_read_page_hwecc_oob_first
+                0x0000000000001084      0x1fc nuc970_nand.o
+
+.text.board_nand_init
+                0x0000000000001280      0x310
+ .text.board_nand_init
+                0x0000000000001280      0x310 nuc970_nand.o
+                0x0000000000001280                board_nand_init
+
+.text.board_init_f
+                0x0000000000001590       0x3c
+ .text.board_init_f
+                0x0000000000001590       0x3c nuc970_nand_spl.o
+                0x0000000000001590                board_init_f
+
+.text.nand_register
+                0x00000000000015cc       0x88
+ .text.nand_register
+                0x00000000000015cc       0x88 nand.o
+                0x00000000000015cc                nand_register
+
+.text.scan_read_raw_oob
+                0x0000000000001654       0xcc
+ .text.scan_read_raw_oob
+                0x0000000000001654       0xcc nand_bbt.o
+
+.text.write_bbt
+                0x0000000000001720      0x6b4
+ .text.write_bbt
+                0x0000000000001720      0x6b4 nand_bbt.o
+
+.text.verify_bbt_descr
+                0x0000000000001dd4      0x158
+ .text.verify_bbt_descr
+                0x0000000000001dd4      0x158 nand_bbt.o
+
+.text.check_pattern
+                0x0000000000001f2c      0x134
+ .text.check_pattern
+                0x0000000000001f2c      0x134 nand_bbt.o
+
+.text.create_bbt
+                0x0000000000002060      0x348
+ .text.create_bbt
+                0x0000000000002060      0x348 nand_bbt.o
+
+.text.scan_read_raw.constprop.4
+                0x00000000000023a8       0x68
+ .text.scan_read_raw.constprop.4
+                0x00000000000023a8       0x68 nand_bbt.o
+
+.text.read_bbt.constprop.7
+                0x0000000000002410      0x238
+ .text.read_bbt.constprop.7
+                0x0000000000002410      0x238 nand_bbt.o
+
+.text.read_abs_bbt.constprop.6
+                0x0000000000002648       0xc0
+ .text.read_abs_bbt.constprop.6
+                0x0000000000002648       0xc0 nand_bbt.o
+
+.text.search_bbt.constprop.2
+                0x0000000000002708      0x1bc
+ .text.search_bbt.constprop.2
+                0x0000000000002708      0x1bc nand_bbt.o
+
+.text.nand_update_bbt
+                0x00000000000028c4      0x128
+ .text.nand_update_bbt
+                0x00000000000028c4      0x128 nand_bbt.o
+                0x00000000000028c4                nand_update_bbt
+
+.text.mark_bbt_region
+                0x00000000000029ec      0x188
+ .text.mark_bbt_region
+                0x00000000000029ec      0x188 nand_bbt.o
+
+.text.nand_scan_bbt
+                0x0000000000002b74      0x480
+ .text.nand_scan_bbt
+                0x0000000000002b74      0x480 nand_bbt.o
+                0x0000000000002b74                nand_scan_bbt
+
+.text.nand_default_bbt
+                0x0000000000002ff4       0xe8
+ .text.nand_default_bbt
+                0x0000000000002ff4       0xe8 nand_bbt.o
+                0x0000000000002ff4                nand_default_bbt
+
+.text.nand_isbad_bbt
+                0x00000000000030dc       0x60
+ .text.nand_isbad_bbt
+                0x00000000000030dc       0x60 nand_bbt.o
+                0x00000000000030dc                nand_isbad_bbt
+
+.text.nand_release_device
+                0x000000000000313c       0x18
+ .text.nand_release_device
+                0x000000000000313c       0x18 nand_base.o
+
+.text.nand_read_byte
+                0x0000000000003154       0x14
+ .text.nand_read_byte
+                0x0000000000003154       0x14 nand_base.o
+                0x0000000000003154                nand_read_byte
+
+.text.nand_read_byte16
+                0x0000000000003168       0x14
+ .text.nand_read_byte16
+                0x0000000000003168       0x14 nand_base.o
+
+.text.nand_read_word
+                0x000000000000317c       0x10
+ .text.nand_read_word
+                0x000000000000317c       0x10 nand_base.o
+
+.text.nand_write_buf
+                0x000000000000318c       0x2c
+ .text.nand_write_buf
+                0x000000000000318c       0x2c nand_base.o
+                0x000000000000318c                nand_write_buf
+
+.text.nand_read_buf
+                0x00000000000031b8       0x2c
+ .text.nand_read_buf
+                0x00000000000031b8       0x2c nand_base.o
+                0x00000000000031b8                nand_read_buf
+
+.text.nand_verify_buf
+                0x00000000000031e4       0x44
+ .text.nand_verify_buf
+                0x00000000000031e4       0x44 nand_base.o
+
+.text.nand_write_buf16
+                0x0000000000003228       0x34
+ .text.nand_write_buf16
+                0x0000000000003228       0x34 nand_base.o
+                0x0000000000003228                nand_write_buf16
+
+.text.nand_read_buf16
+                0x000000000000325c       0x34
+ .text.nand_read_buf16
+                0x000000000000325c       0x34 nand_base.o
+                0x000000000000325c                nand_read_buf16
+
+.text.nand_verify_buf16
+                0x0000000000003290       0x48
+ .text.nand_verify_buf16
+                0x0000000000003290       0x48 nand_base.o
+
+.text.nand_check_wp
+                0x00000000000032d8       0x50
+ .text.nand_check_wp
+                0x00000000000032d8       0x50 nand_base.o
+
+.text.nand_read_page_raw
+                0x0000000000003328       0x38
+ .text.nand_read_page_raw
+                0x0000000000003328       0x38 nand_base.o
+
+.text.nand_read_page_raw_syndrome
+                0x0000000000003360       0xd4
+ .text.nand_read_page_raw_syndrome
+                0x0000000000003360       0xd4 nand_base.o
+
+.text.nand_read_page_swecc
+                0x0000000000003434      0x110
+ .text.nand_read_page_swecc
+                0x0000000000003434      0x110 nand_base.o
+
+.text.nand_read_subpage
+                0x0000000000003544      0x288
+ .text.nand_read_subpage
+                0x0000000000003544      0x288 nand_base.o
+
+.text.nand_read_page_hwecc
+                0x00000000000037cc      0x140
+ .text.nand_read_page_hwecc
+                0x00000000000037cc      0x140 nand_base.o
+
+.text.nand_read_page_hwecc_oob_first
+                0x000000000000390c      0x13c
+ .text.nand_read_page_hwecc_oob_first
+                0x000000000000390c      0x13c nand_base.o
+
+.text.nand_read_page_syndrome
+                0x0000000000003a48      0x128
+ .text.nand_read_page_syndrome
+                0x0000000000003a48      0x128 nand_base.o
+
+.text.nand_read_oob_std
+                0x0000000000003b70       0x48
+ .text.nand_read_oob_std
+                0x0000000000003b70       0x48 nand_base.o
+
+.text.nand_read_oob_syndrome
+                0x0000000000003bb8      0x108
+ .text.nand_read_oob_syndrome
+                0x0000000000003bb8      0x108 nand_base.o
+
+.text.nand_write_oob_std
+                0x0000000000003cc0       0x70
+ .text.nand_write_oob_std
+                0x0000000000003cc0       0x70 nand_base.o
+
+.text.nand_write_oob_syndrome
+                0x0000000000003d30      0x1b0
+ .text.nand_write_oob_syndrome
+                0x0000000000003d30      0x1b0 nand_base.o
+
+.text.nand_write_page_raw
+                0x0000000000003ee0       0x34
+ .text.nand_write_page_raw
+                0x0000000000003ee0       0x34 nand_base.o
+
+.text.nand_write_page_raw_syndrome
+                0x0000000000003f14       0xd0
+ .text.nand_write_page_raw_syndrome
+                0x0000000000003f14       0xd0 nand_base.o
+
+.text.nand_write_page_swecc
+                0x0000000000003fe4       0xb0
+ .text.nand_write_page_swecc
+                0x0000000000003fe4       0xb0 nand_base.o
+
+.text.nand_write_page_hwecc
+                0x0000000000004094       0xc8
+ .text.nand_write_page_hwecc
+                0x0000000000004094       0xc8 nand_base.o
+
+.text.nand_write_page_syndrome
+                0x000000000000415c       0xf4
+ .text.nand_write_page_syndrome
+                0x000000000000415c       0xf4 nand_base.o
+
+.text.single_erase_cmd
+                0x0000000000004250       0x3c
+ .text.single_erase_cmd
+                0x0000000000004250       0x3c nand_base.o
+
+.text.multi_erase_cmd
+                0x000000000000428c       0x88
+ .text.multi_erase_cmd
+                0x000000000000428c       0x88 nand_base.o
+
+.text.nand_sync
+                0x0000000000004314       0x10
+ .text.nand_sync
+                0x0000000000004314       0x10 nand_base.o
+
+.text.nand_block_checkbad
+                0x0000000000004324       0x84
+ .text.nand_block_checkbad
+                0x0000000000004324       0x84 nand_base.o
+
+.text.nand_block_isbad
+                0x00000000000043a8       0x30
+ .text.nand_block_isbad
+                0x00000000000043a8       0x30 nand_base.o
+
+.text.nand_block_markbad
+                0x00000000000043d8       0x40
+ .text.nand_block_markbad
+                0x00000000000043d8       0x40 nand_base.o
+
+.text.nand_write_page
+                0x0000000000004418       0xa8
+ .text.nand_write_page
+                0x0000000000004418       0xa8 nand_base.o
+
+.text.nand_block_bad
+                0x00000000000044c0      0x150
+ .text.nand_block_bad
+                0x00000000000044c0      0x150 nand_base.o
+
+.text.nand_wait
+                0x0000000000004610       0xdc
+ .text.nand_wait
+                0x0000000000004610       0xdc nand_base.o
+
+.text.generic_ffs.part.0
+                0x00000000000046ec       0x44
+ .text.generic_ffs.part.0
+                0x00000000000046ec       0x44 nand_base.o
+
+.text.nand_select_chip
+                0x0000000000004730       0x58
+ .text.nand_select_chip
+                0x0000000000004730       0x58 nand_base.o
+
+.text.nand_fill_oob
+                0x0000000000004788      0x110
+ .text.nand_fill_oob
+                0x0000000000004788      0x110 nand_base.o
+
+.text.nand_do_write_oob
+                0x0000000000004898      0x1a4
+ .text.nand_do_write_oob
+                0x0000000000004898      0x1a4 nand_base.o
+
+.text.nand_default_block_markbad
+                0x0000000000004a3c      0x17c
+ .text.nand_default_block_markbad
+                0x0000000000004a3c      0x17c nand_base.o
+
+.text.nand_do_write_ops
+                0x0000000000004bb8      0x338
+ .text.nand_do_write_ops
+                0x0000000000004bb8      0x338 nand_base.o
+
+.text.nand_write_oob
+                0x0000000000004ef0       0x98
+ .text.nand_write_oob
+                0x0000000000004ef0       0x98 nand_base.o
+
+.text.nand_write
+                0x0000000000004f88       0x88
+ .text.nand_write
+                0x0000000000004f88       0x88 nand_base.o
+
+.text.nand_transfer_oob
+                0x0000000000005010      0x110
+ .text.nand_transfer_oob
+                0x0000000000005010      0x110 nand_base.o
+
+.text.nand_wait_ready
+                0x0000000000005120       0x4c
+ .text.nand_wait_ready
+                0x0000000000005120       0x4c nand_base.o
+                0x0000000000005120                nand_wait_ready
+
+.text.nand_do_read_ops
+                0x000000000000516c      0x3ac
+ .text.nand_do_read_ops
+                0x000000000000516c      0x3ac nand_base.o
+
+.text.nand_read_oob
+                0x0000000000005518      0x28c
+ .text.nand_read_oob
+                0x0000000000005518      0x28c nand_base.o
+
+.text.nand_read
+                0x00000000000057a4       0x88
+ .text.nand_read
+                0x00000000000057a4       0x88 nand_base.o
+
+.text.nand_command
+                0x000000000000582c      0x1d4
+ .text.nand_command
+                0x000000000000582c      0x1d4 nand_base.o
+
+.text.nand_command_lp
+                0x0000000000005a00      0x260
+ .text.nand_command_lp
+                0x0000000000005a00      0x260 nand_base.o
+
+.text.nand_erase_nand
+                0x0000000000005c60      0x3a8
+ .text.nand_erase_nand
+                0x0000000000005c60      0x3a8 nand_base.o
+                0x0000000000005c60                nand_erase_nand
+
+.text.nand_erase
+                0x0000000000006008        0x8
+ .text.nand_erase
+                0x0000000000006008        0x8 nand_base.o
+
+.text.nand_scan_ident
+                0x0000000000006010      0x7c0
+ .text.nand_scan_ident
+                0x0000000000006010      0x7c0 nand_base.o
+                0x0000000000006010                nand_scan_ident
+
+.text.nand_scan_tail
+                0x00000000000067d0      0x5c8
+ .text.nand_scan_tail
+                0x00000000000067d0      0x5c8 nand_base.o
+                0x00000000000067d0                nand_scan_tail
+
+.text.nand_scan
+                0x0000000000006d98       0x24
+ .text.nand_scan
+                0x0000000000006d98       0x24 nand_base.o
+                0x0000000000006d98                nand_scan
+
+.text.nuc970_serial_init
+                0x0000000000006dbc       0x38
+ .text.nuc970_serial_init
+                0x0000000000006dbc       0x38 serial_nuc970.o
+                0x0000000000006dbc                nuc970_serial_init
+
+.text.nuc970_serial_getc
+                0x0000000000006df4       0x1c
+ .text.nuc970_serial_getc
+                0x0000000000006df4       0x1c serial_nuc970.o
+                0x0000000000006df4                nuc970_serial_getc
+
+.text.nuc970_serial_tstc
+                0x0000000000006e10       0x18
+ .text.nuc970_serial_tstc
+                0x0000000000006e10       0x18 serial_nuc970.o
+                0x0000000000006e10                nuc970_serial_tstc
+
+.text.nuc970_serial_setbrg
+                0x0000000000006e28        0x4
+ .text.nuc970_serial_setbrg
+                0x0000000000006e28        0x4 serial_nuc970.o
+                0x0000000000006e28                nuc970_serial_setbrg
+
+.text.nuc970_serial_putc
+                0x0000000000006e2c       0x3c
+ .text.nuc970_serial_putc
+                0x0000000000006e2c       0x3c serial_nuc970.o
+                0x0000000000006e2c                nuc970_serial_putc
+
+.text.nuc970_serial_puts
+                0x0000000000006e68       0x20
+ .text.nuc970_serial_puts
+                0x0000000000006e68       0x20 serial_nuc970.o
+                0x0000000000006e68                nuc970_serial_puts
+
+.text.nuc970_serial_initialize
+                0x0000000000006e88        0xc
+ .text.nuc970_serial_initialize
+                0x0000000000006e88        0xc serial_nuc970.o
+                0x0000000000006e88                nuc970_serial_initialize
+
+.text.default_serial_console
+                0x0000000000006e94        0xc
+ .text.default_serial_console
+                0x0000000000006e94        0xc serial_nuc970.o
+                0x0000000000006e94                default_serial_console
+
+.text.get_current
+                0x0000000000006ea0       0x3c
+ .text.get_current
+                0x0000000000006ea0       0x3c serial.o
+
+.text.serial_register
+                0x0000000000006edc       0x18
+ .text.serial_register
+                0x0000000000006edc       0x18 serial.o
+                0x0000000000006edc                serial_register
+
+.text.serial_putc
+                0x0000000000006ef4       0x1c
+ .text.serial_putc
+                0x0000000000006ef4       0x1c serial.o
+                0x0000000000006ef4                serial_putc
+
+.text.serial_puts
+                0x0000000000006f10       0x1c
+ .text.serial_puts
+                0x0000000000006f10       0x1c serial.o
+                0x0000000000006f10                serial_puts
+
+.text.__div0    0x0000000000006f2c        0x4
+ .text.__div0   0x0000000000006f2c        0x4 nuc970_sysprintf.o
+                0x0000000000006f2c                __div0
+
+.text.sysPutString
+                0x0000000000006f30       0x20
+ .text.sysPutString
+                0x0000000000006f30       0x20 nuc970_sysprintf.o
+                0x0000000000006f30                sysPutString
+
+.text.sysprintf
+                0x0000000000006f50      0x3ac
+ .text.sysprintf
+                0x0000000000006f50      0x3ac nuc970_sysprintf.o
+                0x0000000000006f50                sysprintf
+
+.text.get_ticks
+                0x00000000000072fc       0x80
+ .text.get_ticks
+                0x00000000000072fc       0x80 timer.o
+                0x00000000000072fc                get_ticks
+
+.text.__udelay  0x000000000000737c       0x78
+ .text.__udelay
+                0x000000000000737c       0x78 timer.o
+                0x000000000000737c                __udelay
+
+.text.get_timer
+                0x00000000000073f4       0x58
+ .text.get_timer
+                0x00000000000073f4       0x58 timer.o
+                0x00000000000073f4                get_timer
+
+.text.udelay    0x000000000000744c       0x30
+ .text.udelay   0x000000000000744c       0x30 time.o
+                0x000000000000744c                udelay
+
+.text.__div64_32
+                0x000000000000747c       0xdc
+ .text.__div64_32
+                0x000000000000747c       0xdc div64.o
+                0x000000000000747c                __div64_32
+
+.text.strlen    0x0000000000007558       0x20
+ .text.strlen   0x0000000000007558       0x20 string.o
+                0x0000000000007558                strlen
+
+.text.strnlen   0x0000000000007578       0x30
+ .text.strnlen  0x0000000000007578       0x30 string.o
+                0x0000000000007578                strnlen
+
+.text.memset    0x00000000000075a8       0x6c
+ .text.memset   0x00000000000075a8       0x6c string.o
+                0x00000000000075a8                memset
+
+.text.memcpy    0x0000000000007614       0x68
+ .text.memcpy   0x0000000000007614       0x68 string.o
+                0x0000000000007614                memcpy
+
+.text.memcmp    0x000000000000767c       0x34
+ .text.memcmp   0x000000000000767c       0x34 string.o
+                0x000000000000767c                memcmp
+
+.text.put_dec_trunc
+                0x00000000000076b0       0xf4
+ .text.put_dec_trunc
+                0x00000000000076b0       0xf4 vsprintf.o
+
+.text.put_dec   0x00000000000077a4      0x148
+ .text.put_dec  0x00000000000077a4      0x148 vsprintf.o
+
+.text.string.isra.0
+                0x00000000000078ec       0xa0
+ .text.string.isra.0
+                0x00000000000078ec       0xa0 vsprintf.o
+
+.text.number.isra.4
+                0x000000000000798c      0x264
+ .text.number.isra.4
+                0x000000000000798c      0x264 vsprintf.o
+
+.text.vsnprintf_internal.isra.6
+                0x0000000000007bf0      0x640
+ .text.vsnprintf_internal.isra.6
+                0x0000000000007bf0      0x640 vsprintf.o
+
+.text.vsprintf  0x0000000000008230        0x4
+ .text.vsprintf
+                0x0000000000008230        0x4 vsprintf.o
+                0x0000000000008230                vsprintf
+
+.text.sprintf   0x0000000000008234       0x24
+ .text.sprintf  0x0000000000008234       0x24 vsprintf.o
+                0x0000000000008234                sprintf
+
+.text.panic     0x0000000000008258       0x44
+ .text.panic    0x0000000000008258       0x44 vsprintf.o
+                0x0000000000008258                panic
+
+.text.fputc     0x000000000000829c       0x28
+ .text.fputc    0x000000000000829c       0x28 console.o
+                0x000000000000829c                fputc
+
+.text.putc      0x00000000000082c4       0x28
+ .text.putc     0x00000000000082c4       0x28 console.o
+                0x00000000000082c4                putc
+
+.text.puts      0x00000000000082ec       0x3c
+ .text.puts     0x00000000000082ec       0x3c console.o
+                0x00000000000082ec                puts
+
+.text.printf    0x0000000000008328       0x4c
+ .text.printf   0x0000000000008328       0x4c console.o
+                0x0000000000008328                printf
+
+.text.vprintf   0x0000000000008374       0x40
+ .text.vprintf  0x0000000000008374       0x40 console.o
+                0x0000000000008374                vprintf
+
+.text.do_reset  0x00000000000083b4       0x30
+ .text.do_reset
+                0x00000000000083b4       0x30 reset.o
+                0x00000000000083b4                do_reset
+
+.text.disable_interrupts
+                0x00000000000083e4        0x8
+ .text.disable_interrupts
+                0x00000000000083e4        0x8 interrupts.o
+                0x00000000000083e4                disable_interrupts
+
+.text.reset_cpu
+                0x00000000000083ec       0x38
+ .text.reset_cpu
+                0x00000000000083ec       0x38 nuc970_reset.o
+                0x00000000000083ec                reset_cpu
+
+.text.add_mtd_device
+                0x0000000000008424       0x6c
+ .text.add_mtd_device
+                0x0000000000008424       0x6c mtdcore.o
+                0x0000000000008424                add_mtd_device
+
+.text.part_erase
+                0x0000000000008490       0x9c
+ .text.part_erase
+                0x0000000000008490       0x9c mtdpart.o
+
+.text.mtd_erase_callback
+                0x000000000000852c       0x68
+ .text.mtd_erase_callback
+                0x000000000000852c       0x68 mtdpart.o
+                0x000000000000852c                mtd_erase_callback
+                0x0000000000008594                . = ALIGN (0x4)
+
+.rodata         0x0000000000008594     0x1414
+ *(SORT(.rodata*))
+ .rodata        0x0000000000008594       0x14 nuc970_nand.o
+ .rodata        0x00000000000085a8      0x710 nand_ids.o
+                0x00000000000085a8                nand_manuf_ids
+                0x00000000000085f8                nand_flash_ids
+ .rodata        0x0000000000008cb8       0x1c nand_bbt.o
+ .rodata        0x0000000000008cd4       0x64 nand_base.o
+ .rodata        0x0000000000008d38       0x21 vsprintf.o
+ .rodata        0x0000000000008d59      0x100 ctype.o
+                0x0000000000008d59                _ctype
+ .rodata.str1.1
+                0x0000000000008e59       0x57 nuc970_nand.o
+ .rodata.str1.1
+                0x0000000000008eb0        0xb nuc970_nand_spl.o
+ .rodata.str1.1
+                0x0000000000008ebb       0x10 nand.o
+ .rodata.str1.1
+                0x0000000000008ecb      0x286 nand_bbt.o
+ .rodata.str1.1
+                0x0000000000009151      0x4d9 nand_ids.o
+                                        0x4ef (size before relaxing)
+ .rodata.str1.1
+                0x000000000000962a      0x264 nand_base.o
+                                        0x286 (size before relaxing)
+ .rodata.str1.1
+                0x000000000000988e       0x92 serial.o
+ .rodata.str1.1
+                0x0000000000009920       0x29 vsprintf.o
+ .rodata.str1.1
+                0x0000000000009949        0xf reset.o
+ .rodata.str1.1
+                0x0000000000009958       0x50 mtdcore.o
+                0x00000000000099a8                . = ALIGN (0x4)
+
+.data           0x00000000000099a8      0xa20
+ *(.data)
+ .data          0x00000000000099a8        0x4 nand.o
+                0x00000000000099a8                nand_curr_device
+ .data          0x00000000000099ac       0xc4 nand_bbt.o
+ .data          0x0000000000009a70      0x920 nand_base.o
+ .data          0x000000000000a390       0x38 serial_nuc970.o
+                0x000000000000a3c0                ext_clk
+                0x000000000000a3c4                baudrate
+
+.igot.plt       0x000000000000a3c8        0x0
+ .igot.plt      0x0000000000000000        0x0 start.o
+                0x000000000000a3c8                . = ALIGN (0x4)
+
+.got
+ *(.got)
+                0x000000000000a3c8                __u_boot_cmd_start = .
+
+.u_boot_cmd
+ *(.u_boot_cmd)
+                0x000000000000a3c8                __u_boot_cmd_end = .
+                0x000000000000a3c8                . = ALIGN (0x4)
+
+.rel.dyn        0x000000000000a3c8        0x0
+                0x000000000000a3c8                __rel_dyn_start = .
+ *(.rel*)
+ .rel.iplt      0x0000000000000000        0x0 start.o
+                0x000000000000a3c8                __rel_dyn_end = .
+
+.dynsym         0x000000000000a3c8        0x0
+                0x000000000000a3c8                __dynsym_start = .
+ *(.dynsym)
+                0x000000000000a3c8                _end = .
+
+.bss            0x000000000000a3c8      0x6e0
+                0x000000000000a3c8                __bss_start = .
+ *(.bss)
+ .bss           0x000000000000a3c8      0x430 nuc970_nand.o
+                0x000000000000a3c8                nuc970_nand
+                0x000000000000a3d0                g_nuc970_nand
+ .bss           0x000000000000a7f8      0x1e0 nand.o
+                0x000000000000a7f8                nand_info
+ .bss           0x000000000000a9d8        0x8 serial.o
+ .bss           0x000000000000a9e0       0x48 stdio.o
+                0x000000000000aa1c                stdio_devices
+ .bss           0x000000000000aa28       0x80 mtdcore.o
+                0x000000000000aa28                mtd_table
+                0x000000000000aaa8                . = ALIGN (0x4)
+                0x000000000000aaa8                __bss_end__ = .
+Address of section .text set to 0x200
+LOAD start.o
+LOAD cpu_init.o
+LOAD lowlevel_init.o
+LOAD divlib.o
+LOAD _lshrdi3.o
+LOAD _ashldi3.o
+LOAD _ashrdi3.o
+LOAD nand_boot.o
+LOAD nand_ecc.o
+LOAD nuc970_nand.o
+LOAD nuc970_nand_spl.o
+LOAD nand.o
+LOAD nand_bbt.o
+LOAD nand_ids.o
+LOAD nand_util.o
+LOAD nand_base.o
+LOAD serial_nuc970.o
+LOAD serial.o
+LOAD nuc970_sysprintf.o
+LOAD nuc970_wdt.o
+LOAD timer.o
+LOAD time.o
+LOAD div64.o
+LOAD string.o
+LOAD vsprintf.o
+LOAD stdio.o
+LOAD console.o
+LOAD reset.o
+LOAD interrupts.o
+LOAD nuc970_reset.o
+LOAD ctype.o
+LOAD mtdcore.o
+LOAD mtdpart.o
+OUTPUT(/home/elinux/Gokul_Project/7510BuildSystem-TNSTC-NewAPI/Uboot_Production/uboot/nand_spl/u-boot-spl elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x27
+ .ARM.attributes
+                0x0000000000000000       0x1b start.o
+ .ARM.attributes
+                0x000000000000001b       0x2b nand_boot.o
+ .ARM.attributes
+                0x0000000000000046       0x1b lowlevel_init.o
+ .ARM.attributes
+                0x0000000000000061       0x1b divlib.o
+ .ARM.attributes
+                0x000000000000007c       0x1b _lshrdi3.o
+ .ARM.attributes
+                0x0000000000000097       0x1b _ashldi3.o
+ .ARM.attributes
+                0x00000000000000b2       0x1b _ashrdi3.o
+ .ARM.attributes
+                0x00000000000000cd       0x2b nand_ecc.o
+ .ARM.attributes
+                0x00000000000000f8       0x2b nuc970_nand.o
+ .ARM.attributes
+                0x0000000000000123       0x2b nuc970_nand_spl.o
+ .ARM.attributes
+                0x000000000000014e       0x2b nand.o
+ .ARM.attributes
+                0x0000000000000179       0x2b nand_bbt.o
+ .ARM.attributes
+                0x00000000000001a4       0x2b nand_ids.o
+ .ARM.attributes
+                0x00000000000001cf       0x2b nand_base.o
+ .ARM.attributes
+                0x00000000000001fa       0x2b serial_nuc970.o
+ .ARM.attributes
+                0x0000000000000225       0x2b serial.o
+ .ARM.attributes
+                0x0000000000000250       0x2b nuc970_sysprintf.o
+ .ARM.attributes
+                0x000000000000027b       0x2b timer.o
+ .ARM.attributes
+                0x00000000000002a6       0x2b time.o
+ .ARM.attributes
+                0x00000000000002d1       0x2b div64.o
+ .ARM.attributes
+                0x00000000000002fc       0x2b string.o
+ .ARM.attributes
+                0x0000000000000327       0x2b vsprintf.o
+ .ARM.attributes
+                0x0000000000000352       0x2b stdio.o
+ .ARM.attributes
+                0x000000000000037d       0x2b console.o
+ .ARM.attributes
+                0x00000000000003a8       0x2b reset.o
+ .ARM.attributes
+                0x00000000000003d3       0x2b interrupts.o
+ .ARM.attributes
+                0x00000000000003fe       0x2b nuc970_reset.o
+ .ARM.attributes
+                0x0000000000000429       0x2b ctype.o
+ .ARM.attributes
+                0x0000000000000454       0x2b mtdcore.o
+ .ARM.attributes
+                0x000000000000047f       0x2b mtdpart.o
+
+.comment        0x0000000000000000       0x11
+ .comment       0x0000000000000000       0x11 nand_boot.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 nand_ecc.o
+ .comment       0x0000000000000000       0x12 nuc970_nand.o
+ .comment       0x0000000000000000       0x12 nuc970_nand_spl.o
+ .comment       0x0000000000000000       0x12 nand.o
+ .comment       0x0000000000000000       0x12 nand_bbt.o
+ .comment       0x0000000000000000       0x12 nand_ids.o
+ .comment       0x0000000000000000       0x12 nand_base.o
+ .comment       0x0000000000000000       0x12 serial_nuc970.o
+ .comment       0x0000000000000000       0x12 serial.o
+ .comment       0x0000000000000000       0x12 nuc970_sysprintf.o
+ .comment       0x0000000000000000       0x12 timer.o
+ .comment       0x0000000000000000       0x12 time.o
+ .comment       0x0000000000000000       0x12 div64.o
+ .comment       0x0000000000000000       0x12 string.o
+ .comment       0x0000000000000000       0x12 vsprintf.o
+ .comment       0x0000000000000000       0x12 stdio.o
+ .comment       0x0000000000000000       0x12 console.o
+ .comment       0x0000000000000000       0x12 reset.o
+ .comment       0x0000000000000000       0x12 interrupts.o
+ .comment       0x0000000000000000       0x12 nuc970_reset.o
+ .comment       0x0000000000000000       0x12 ctype.o
+ .comment       0x0000000000000000       0x12 mtdcore.o
+ .comment       0x0000000000000000       0x12 mtdpart.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 nand_boot.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nand_ecc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nuc970_nand.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nuc970_nand_spl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nand.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nand_bbt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nand_ids.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nand_base.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 serial_nuc970.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 serial.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nuc970_sysprintf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 timer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 time.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 div64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 string.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 vsprintf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 stdio.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 console.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 reset.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 interrupts.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nuc970_reset.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ctype.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 mtdcore.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 mtdpart.o
+
+.debug_line     0x0000000000000000     0x5fe0
+ .debug_line    0x0000000000000000       0x88 start.o
+ .debug_line    0x0000000000000088      0x263 nand_boot.o
+ .debug_line    0x00000000000002eb       0x4b lowlevel_init.o
+ .debug_line    0x0000000000000336       0x99 divlib.o
+ .debug_line    0x00000000000003cf       0x40 _lshrdi3.o
+ .debug_line    0x000000000000040f       0x40 _ashldi3.o
+ .debug_line    0x000000000000044f       0x40 _ashrdi3.o
+ .debug_line    0x000000000000048f      0x238 nand_ecc.o
+ .debug_line    0x00000000000006c7      0x5aa nuc970_nand.o
+ .debug_line    0x0000000000000c71      0x182 nuc970_nand_spl.o
+ .debug_line    0x0000000000000df3      0x2e3 nand.o
+ .debug_line    0x00000000000010d6      0x8e8 nand_bbt.o
+ .debug_line    0x00000000000019be      0x1c5 nand_ids.o
+ .debug_line    0x0000000000001b83     0x1231 nand_base.o
+ .debug_line    0x0000000000002db4      0x2a2 serial_nuc970.o
+ .debug_line    0x0000000000003056      0x3fc serial.o
+ .debug_line    0x0000000000003452      0x2b6 nuc970_sysprintf.o
+ .debug_line    0x0000000000003708      0x292 timer.o
+ .debug_line    0x000000000000399a      0x19b time.o
+ .debug_line    0x0000000000003b35      0x12d div64.o
+ .debug_line    0x0000000000003c62      0x4da string.o
+ .debug_line    0x000000000000413c      0x70f vsprintf.o
+ .debug_line    0x000000000000484b      0x2ee stdio.o
+ .debug_line    0x0000000000004b39      0x577 console.o
+ .debug_line    0x00000000000050b0      0x184 reset.o
+ .debug_line    0x0000000000005234      0x373 interrupts.o
+ .debug_line    0x00000000000055a7      0x190 nuc970_reset.o
+ .debug_line    0x0000000000005737       0x28 ctype.o
+ .debug_line    0x000000000000575f      0x2c2 mtdcore.o
+ .debug_line    0x0000000000005a21      0x5bf mtdpart.o
+
+.debug_info     0x0000000000000000    0x1a167
+ .debug_info    0x0000000000000000       0xa0 start.o
+ .debug_info    0x00000000000000a0     0x15db nand_boot.o
+ .debug_info    0x000000000000167b       0xa8 lowlevel_init.o
+ .debug_info    0x0000000000001723       0xa1 divlib.o
+ .debug_info    0x00000000000017c4       0xa3 _lshrdi3.o
+ .debug_info    0x0000000000001867       0xa3 _ashldi3.o
+ .debug_info    0x000000000000190a       0xa3 _ashrdi3.o
+ .debug_info    0x00000000000019ad      0xb3e nand_ecc.o
+ .debug_info    0x00000000000024eb     0x2c7c nuc970_nand.o
+ .debug_info    0x0000000000005167      0x3e8 nuc970_nand_spl.o
+ .debug_info    0x000000000000554f     0x174b nand.o
+ .debug_info    0x0000000000006c9a     0x320f nand_bbt.o
+ .debug_info    0x0000000000009ea9      0x399 nand_ids.o
+ .debug_info    0x000000000000a242     0x5a12 nand_base.o
+ .debug_info    0x000000000000fc54      0x834 serial_nuc970.o
+ .debug_info    0x0000000000010488      0xe0d serial.o
+ .debug_info    0x0000000000011295      0x887 nuc970_sysprintf.o
+ .debug_info    0x0000000000011b1c      0x7fd timer.o
+ .debug_info    0x0000000000012319      0x351 time.o
+ .debug_info    0x000000000001266a      0x14b div64.o
+ .debug_info    0x00000000000127b5      0xb37 string.o
+ .debug_info    0x00000000000132ec     0x167e vsprintf.o
+ .debug_info    0x000000000001496a      0xa0b stdio.o
+ .debug_info    0x0000000000015375     0x13ba console.o
+ .debug_info    0x000000000001672f      0x491 reset.o
+ .debug_info    0x0000000000016bc0      0xa13 interrupts.o
+ .debug_info    0x00000000000175d3      0x36d nuc970_reset.o
+ .debug_info    0x0000000000017940       0x53 ctype.o
+ .debug_info    0x0000000000017993      0xc90 mtdcore.o
+ .debug_info    0x0000000000018623     0x1b44 mtdpart.o
+
+.debug_abbrev   0x0000000000000000     0x4273
+ .debug_abbrev  0x0000000000000000       0x14 start.o
+ .debug_abbrev  0x0000000000000014      0x2bd nand_boot.o
+ .debug_abbrev  0x00000000000002d1       0x14 lowlevel_init.o
+ .debug_abbrev  0x00000000000002e5       0x14 divlib.o
+ .debug_abbrev  0x00000000000002f9       0x14 _lshrdi3.o
+ .debug_abbrev  0x000000000000030d       0x14 _ashldi3.o
+ .debug_abbrev  0x0000000000000321       0x14 _ashrdi3.o
+ .debug_abbrev  0x0000000000000335      0x1df nand_ecc.o
+ .debug_abbrev  0x0000000000000514      0x50c nuc970_nand.o
+ .debug_abbrev  0x0000000000000a20      0x1c6 nuc970_nand_spl.o
+ .debug_abbrev  0x0000000000000be6      0x2ee nand.o
+ .debug_abbrev  0x0000000000000ed4      0x504 nand_bbt.o
+ .debug_abbrev  0x00000000000013d8      0x11a nand_ids.o
+ .debug_abbrev  0x00000000000014f2      0x640 nand_base.o
+ .debug_abbrev  0x0000000000001b32      0x26a serial_nuc970.o
+ .debug_abbrev  0x0000000000001d9c      0x3c3 serial.o
+ .debug_abbrev  0x000000000000215f      0x2c1 nuc970_sysprintf.o
+ .debug_abbrev  0x0000000000002420      0x28c timer.o
+ .debug_abbrev  0x00000000000026ac      0x13b time.o
+ .debug_abbrev  0x00000000000027e7       0xa9 div64.o
+ .debug_abbrev  0x0000000000002890      0x26e string.o
+ .debug_abbrev  0x0000000000002afe      0x49d vsprintf.o
+ .debug_abbrev  0x0000000000002f9b      0x2af stdio.o
+ .debug_abbrev  0x000000000000324a      0x4ae console.o
+ .debug_abbrev  0x00000000000036f8      0x182 reset.o
+ .debug_abbrev  0x000000000000387a      0x1e5 interrupts.o
+ .debug_abbrev  0x0000000000003a5f      0x141 nuc970_reset.o
+ .debug_abbrev  0x0000000000003ba0       0x45 ctype.o
+ .debug_abbrev  0x0000000000003be5      0x241 mtdcore.o
+ .debug_abbrev  0x0000000000003e26      0x44d mtdpart.o
+
+.debug_aranges  0x0000000000000000      0xa68
+ .debug_aranges
+                0x0000000000000000       0x20 start.o
+ .debug_aranges
+                0x0000000000000020       0x20 nand_boot.o
+ .debug_aranges
+                0x0000000000000040       0x20 lowlevel_init.o
+ .debug_aranges
+                0x0000000000000060       0x20 divlib.o
+ .debug_aranges
+                0x0000000000000080       0x20 _lshrdi3.o
+ .debug_aranges
+                0x00000000000000a0       0x20 _ashldi3.o
+ .debug_aranges
+                0x00000000000000c0       0x20 _ashrdi3.o
+ .debug_aranges
+                0x00000000000000e0       0x20 nand_ecc.o
+ .debug_aranges
+                0x0000000000000100       0x98 nuc970_nand.o
+ .debug_aranges
+                0x0000000000000198       0x20 nuc970_nand_spl.o
+ .debug_aranges
+                0x00000000000001b8       0x28 nand.o
+ .debug_aranges
+                0x00000000000001e0       0x88 nand_bbt.o
+ .debug_aranges
+                0x0000000000000268       0x18 nand_ids.o
+ .debug_aranges
+                0x0000000000000280      0x1e0 nand_base.o
+ .debug_aranges
+                0x0000000000000460       0x58 serial_nuc970.o
+ .debug_aranges
+                0x00000000000004b8       0x90 serial.o
+ .debug_aranges
+                0x0000000000000548       0x38 nuc970_sysprintf.o
+ .debug_aranges
+                0x0000000000000580       0x40 timer.o
+ .debug_aranges
+                0x00000000000005c0       0x28 time.o
+ .debug_aranges
+                0x00000000000005e8       0x20 div64.o
+ .debug_aranges
+                0x0000000000000608       0xe8 string.o
+ .debug_aranges
+                0x00000000000006f0       0x98 vsprintf.o
+ .debug_aranges
+                0x0000000000000788       0x40 stdio.o
+ .debug_aranges
+                0x00000000000007c8       0xd8 console.o
+ .debug_aranges
+                0x00000000000008a0       0x20 reset.o
+ .debug_aranges
+                0x00000000000008c0       0x78 interrupts.o
+ .debug_aranges
+                0x0000000000000938       0x20 nuc970_reset.o
+ .debug_aranges
+                0x0000000000000958       0x18 ctype.o
+ .debug_aranges
+                0x0000000000000970       0x40 mtdcore.o
+ .debug_aranges
+                0x00000000000009b0       0xb8 mtdpart.o
+
+.debug_loc      0x0000000000000000     0xd701
+ .debug_loc     0x0000000000000000      0x22b nand_boot.o
+ .debug_loc     0x000000000000022b      0x2d0 nand_ecc.o
+ .debug_loc     0x00000000000004fb     0x17d0 nuc970_nand.o
+ .debug_loc     0x0000000000001ccb       0x9a nuc970_nand_spl.o
+ .debug_loc     0x0000000000001d65       0xbd nand.o
+ .debug_loc     0x0000000000001e22     0x1f9c nand_bbt.o
+ .debug_loc     0x0000000000003dbe     0x4196 nand_base.o
+ .debug_loc     0x0000000000007f54       0x33 serial_nuc970.o
+ .debug_loc     0x0000000000007f87      0x4c4 serial.o
+ .debug_loc     0x000000000000844b      0x57c nuc970_sysprintf.o
+ .debug_loc     0x00000000000089c7      0x1bd timer.o
+ .debug_loc     0x0000000000008b84       0x8c time.o
+ .debug_loc     0x0000000000008c10      0x148 div64.o
+ .debug_loc     0x0000000000008d58      0xbb2 string.o
+ .debug_loc     0x000000000000990a     0x1e48 vsprintf.o
+ .debug_loc     0x000000000000b752      0x1d2 stdio.o
+ .debug_loc     0x000000000000b924      0x863 console.o
+ .debug_loc     0x000000000000c187       0xa4 reset.o
+ .debug_loc     0x000000000000c22b      0x21d interrupts.o
+ .debug_loc     0x000000000000c448       0x7d nuc970_reset.o
+ .debug_loc     0x000000000000c4c5      0x25f mtdcore.o
+ .debug_loc     0x000000000000c724      0xfdd mtdpart.o
+
+.debug_ranges   0x0000000000000000     0x1510
+ .debug_ranges  0x0000000000000000       0x80 nand_boot.o
+ .debug_ranges  0x0000000000000080       0x10 nand_ecc.o
+ .debug_ranges  0x0000000000000090      0x2e8 nuc970_nand.o
+ .debug_ranges  0x0000000000000378       0x10 nuc970_nand_spl.o
+ .debug_ranges  0x0000000000000388       0x18 nand.o
+ .debug_ranges  0x00000000000003a0      0x2a8 nand_bbt.o
+ .debug_ranges  0x0000000000000648      0x540 nand_base.o
+ .debug_ranges  0x0000000000000b88       0x48 serial_nuc970.o
+ .debug_ranges  0x0000000000000bd0       0xb0 serial.o
+ .debug_ranges  0x0000000000000c80       0xc8 nuc970_sysprintf.o
+ .debug_ranges  0x0000000000000d48       0xb0 timer.o
+ .debug_ranges  0x0000000000000df8       0x18 time.o
+ .debug_ranges  0x0000000000000e10       0x10 div64.o
+ .debug_ranges  0x0000000000000e20      0x110 string.o
+ .debug_ranges  0x0000000000000f30      0x1b8 vsprintf.o
+ .debug_ranges  0x00000000000010e8       0x68 stdio.o
+ .debug_ranges  0x0000000000001150       0xe0 console.o
+ .debug_ranges  0x0000000000001230       0x10 reset.o
+ .debug_ranges  0x0000000000001240       0x68 interrupts.o
+ .debug_ranges  0x00000000000012a8       0x78 nuc970_reset.o
+ .debug_ranges  0x0000000000001320       0x30 mtdcore.o
+ .debug_ranges  0x0000000000001350      0x1c0 mtdpart.o
+
+.debug_str      0x0000000000000000     0x2393
+ .debug_str     0x0000000000000000      0x6f0 nand_boot.o
+                                        0x995 (size before relaxing)
+ .debug_str     0x00000000000006f0       0x37 nand_ecc.o
+                                        0x5e8 (size before relaxing)
+ .debug_str     0x0000000000000727      0x32b nuc970_nand.o
+                                        0xc5e (size before relaxing)
+ .debug_str     0x0000000000000a52       0x54 nuc970_nand_spl.o
+                                        0x2a4 (size before relaxing)
+ .debug_str     0x0000000000000aa6      0x192 nand.o
+                                        0xace (size before relaxing)
+ .debug_str     0x0000000000000c38      0x344 nand_bbt.o
+                                        0xc74 (size before relaxing)
+ .debug_str     0x0000000000000f7c       0x3c nand_ids.o
+                                        0x2ab (size before relaxing)
+ .debug_str     0x0000000000000fb8      0x6b9 nand_base.o
+                                       0x117c (size before relaxing)
+ .debug_str     0x0000000000001671       0xea serial_nuc970.o
+                                        0x4ab (size before relaxing)
+ .debug_str     0x000000000000175b      0x133 serial.o
+                                        0x5b3 (size before relaxing)
+ .debug_str     0x000000000000188e       0xd2 nuc970_sysprintf.o
+                                        0x365 (size before relaxing)
+ .debug_str     0x0000000000001960       0x6c timer.o
+                                        0x418 (size before relaxing)
+ .debug_str     0x00000000000019cc       0x13 time.o
+                                        0x264 (size before relaxing)
+ .debug_str     0x00000000000019df       0x13 div64.o
+                                        0x157 (size before relaxing)
+ .debug_str     0x00000000000019f2       0xd3 string.o
+                                        0x24b (size before relaxing)
+ .debug_str     0x0000000000001ac5      0x1c3 vsprintf.o
+                                        0x513 (size before relaxing)
+ .debug_str     0x0000000000001c88       0x9c stdio.o
+                                        0x4b6 (size before relaxing)
+ .debug_str     0x0000000000001d24      0x304 console.o
+                                        0x802 (size before relaxing)
+ .debug_str     0x0000000000002028       0x2d reset.o
+                                        0x2c1 (size before relaxing)
+ .debug_str     0x0000000000002055       0xdb interrupts.o
+                                        0x481 (size before relaxing)
+ .debug_str     0x0000000000002130       0x17 nuc970_reset.o
+                                        0x25d (size before relaxing)
+ .debug_str     0x0000000000002147        0x8 ctype.o
+                                         0xa2 (size before relaxing)
+ .debug_str     0x000000000000214f       0x5e mtdcore.o
+                                        0x623 (size before relaxing)
+ .debug_str     0x00000000000021ad      0x1e6 mtdpart.o
+                                        0x885 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1aac
+ .debug_frame   0x0000000000000000       0x2c nand_boot.o
+ .debug_frame   0x000000000000002c       0x30 nand_ecc.o
+ .debug_frame   0x000000000000005c      0x180 nuc970_nand.o
+ .debug_frame   0x00000000000001dc       0x28 nuc970_nand_spl.o
+ .debug_frame   0x0000000000000204       0x48 nand.o
+ .debug_frame   0x000000000000024c      0x210 nand_bbt.o
+ .debug_frame   0x000000000000045c      0x720 nand_base.o
+ .debug_frame   0x0000000000000b7c       0x98 serial_nuc970.o
+ .debug_frame   0x0000000000000c14      0x178 serial.o
+ .debug_frame   0x0000000000000d8c       0x7c nuc970_sysprintf.o
+ .debug_frame   0x0000000000000e08       0x84 timer.o
+ .debug_frame   0x0000000000000e8c       0x44 time.o
+ .debug_frame   0x0000000000000ed0       0x38 div64.o
+ .debug_frame   0x0000000000000f08      0x240 string.o
+ .debug_frame   0x0000000000001148      0x204 vsprintf.o
+ .debug_frame   0x000000000000134c       0x8c stdio.o
+ .debug_frame   0x00000000000013d8      0x264 console.o
+ .debug_frame   0x000000000000163c       0x28 reset.o
+ .debug_frame   0x0000000000001664      0x120 interrupts.o
+ .debug_frame   0x0000000000001784       0x20 nuc970_reset.o
+ .debug_frame   0x00000000000017a4       0x7c mtdcore.o
+ .debug_frame   0x0000000000001820      0x28c mtdpart.o

@@ -1,0 +1,64 @@
+//--------------------------------------------------------------------------//
+// ILI9341 LCD Driver Registers
+//--------------------------------------------------------------------------//
+#define READ_DISPLAY_PIXEL_FORMAT   0x0C
+#define SLEEP_OUT     0x11
+#define GAMMA_SET     0x26
+#define DISPLAY_OFF     0x28
+#define DISPLAY_ON     0x29
+#define SET_COLUMN_ADDRESS   0x2A
+#define SET_PAGE_ADDRESS   0x2B
+#define WRITE_MEMORY    0x2C
+#define READ_MEMORY     0x2E
+#define MEMORY_ACCESS_CONTROL  0x36
+#define WRITE_MEMORY_CONTINUE  0x3C
+#define READ_MEMORY_CONTINUE  0x3E
+#define PIXEL_FORMAT_SET   0x3A
+#define FRAME_RATE_CONTROL   0xB1
+#define DISPLAY_FUNCTION_CONTROL 0xB6
+#define POWER_CONTROL_1    0xC0
+#define POWER_CONTROL_2    0xC1
+#define VCOM_CONTROL_1    0xC5
+#define VCOM_CONTROL_2    0xC7
+#define POWER_CONTROL_A    0xCB
+#define POWER_CONTROL_B    0xCF
+#define POSITIVE_GAMMA_CORRECTION 0xE0
+#define NEGATIVE_GAMMA_CORRECTION 0xE1
+#define DRIVER_TIMING_CONTROL_A  0xE8
+#define DRIVER_TIMING_CONTROL_B  0xEA
+#define POWER_ON_SEQUENCE_CONTROL 0xED
+#define UNDOCUMENTED_0xEF   0xEF // !@#$
+#define ENABLE_3G     0xF2
+#define INTERFACE_CONTROL   0xF6
+
+//==========================================================================//
+// Initialise ILI9341 Driver IC
+// note that if the first param (length) is 0xFF it denotes delay
+//==========================================================================//
+const BYTE ILI9341_init[] = {
+23, // 23 parameter sets
+
+3,  INTERFACE_CONTROL,          0x01, 0x01, 0x00,
+3,  UNDOCUMENTED_0xEF,    0x03, 0x80, 0x02,
+3,  POWER_CONTROL_B,   0x00, 0xF2, 0xA0,
+4,  POWER_ON_SEQUENCE_CONTROL, 0x64, 0x03, 0x12, 0x81,
+5,  POWER_CONTROL_A,   0x39, 0x2C, 0x00, 0x34, 0x02,
+2,  DRIVER_TIMING_CONTROL_B, 0x00, 0x00,
+3,  DRIVER_TIMING_CONTROL_A,    0x85, 0x10, 0x7A,
+1,  POWER_CONTROL_1,   0x21,    //VRH[5:0]  
+1,  POWER_CONTROL_2,   0x11,    //SAP[2:0];BT[3:0]
+2,  VCOM_CONTROL_1,    0x3F, 0x3C,
+1,  VCOM_CONTROL_2,    0xC6,       // 0xD2
+1,  PIXEL_FORMAT_SET,    0x55,
+1,  MEMORY_ACCESS_CONTROL,  0x08,
+2,  FRAME_RATE_CONTROL,   0x00, 0x1B,
+2,  DISPLAY_FUNCTION_CONTROL, 0x0A, 0xA2,
+1,  ENABLE_3G,     0x00,    // 3Gamma function disable
+1,  GAMMA_SET,     0x01,    // Gamma curve selected
+15, POSITIVE_GAMMA_CORRECTION, 0x0f, 0x24, 0x21, 0x0F, 0x13, 0x0A, 0x52, 0xC9, 0x3B, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00,
+15, NEGATIVE_GAMMA_CORRECTION, 0x00, 0x1B, 0x1E, 0x00, 0x0C, 0x04, 0x2F, 0x36, 0x44, 0x0a, 0x1F, 0x0F, 0x3F, 0x3F, 0x0F,
+0, WRITE_MEMORY,
+0, SLEEP_OUT,  // exit sleep   
+0xFF, 120,   // delay 120msec
+0, DISPLAY_ON  // display ON
+};

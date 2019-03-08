@@ -1,0 +1,1 @@
+/home/elinux/Gokul_Project/7510BuildSystem-TNSTC-NewAPI/Uboot_Production/uboot/nand_spl/board/nuvoton/nuc970evb/start_nand_spl.S
